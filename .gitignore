@@ -1,0 +1,24 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Large Datasets and HDF5 Caches (flyvis / datamate data)
+flyvis_repo/data/
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
